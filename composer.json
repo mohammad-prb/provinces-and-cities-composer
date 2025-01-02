@@ -1,0 +1,17 @@
+{
+    "name": "mohammad/provinces-and-cities",
+    "description": "List of provinces and cities of countries",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mohammad\\ProvincesAndCities\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Pourbehzad",
+            "email": "pspipm27@gmail.com"
+        }
+    ],
+    "require": {}
+}
