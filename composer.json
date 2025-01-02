@@ -1,11 +1,14 @@
 {
-    "name": "mohammad/provinces-and-cities",
+    "name": "mohammad-prb/provinces-and-cities-composer",
     "description": "List of provinces and cities of countries",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Mohammad\\ProvincesAndCities\\": "src/"
-        }
+            "ProvincesAndCities\\": "src/ProvincesAndCities/"
+        },
+        "files": [
+            "src/ProvincesAndCities/Countries.php"
+        ]
     },
     "authors": [
         {
@@ -13,5 +16,14 @@
             "email": "pspipm27@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProvincesAndCities\\ProvincesServiceProvider"
+            ]
+        }
+    }
 }
