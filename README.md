@@ -8,7 +8,7 @@ This project provides data for provinces/states and cities of various countries.
 If you use languages other than PHP and need these lists, you can access the JSON and MySQL Information through this [repository](https://github.com/mohammad-prb/provinces-and-cities).
 
 ## Install
-    composer require mohammad-prb/provinces-and-cities
+    composer require mohammad-prb/provinces-and-cities-composer
 
 ## How to Use
     <?php

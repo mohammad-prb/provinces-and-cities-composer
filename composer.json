@@ -1,5 +1,5 @@
 {
-    "name": "mohammad-prb/provinces-and-cities",
+    "name": "mohammad-prb/provinces-and-cities-composer",
     "description": "List of provinces and cities of countries",
     "type": "library",
     "autoload": {
