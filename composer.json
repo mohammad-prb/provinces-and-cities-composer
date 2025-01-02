@@ -7,7 +7,10 @@
             "ProvincesAndCities\\": "src/ProvincesAndCities/"
         },
         "files": [
-            "src/ProvincesAndCities/Countries.php"
+            "src/ProvincesAndCities/Countries.php",
+            "src/countries/iran/provinces_and_all_cities.json",
+            "src/countries/iran/provinces_and_main_cities.json",
+            "src/countries/germnay/provinces_and_all_cities.json"
         ]
     },
     "authors": [
@@ -19,12 +22,5 @@
     "require": {
         "php": ">=7.1.3"
     },
-    "license": "ISC",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "ProvincesAndCities\\ProvincesServiceProvider"
-            ]
-        }
-    }
+    "license": "ISC"
 }
