@@ -13,7 +13,7 @@ composer require mohammad-prb/provinces-and-cities-composer
 ```
 
 ## How to Use
-```
+```php
 <?php
 
 use ProvincesAndCities\Countries;
@@ -23,7 +23,7 @@ Countries::$iran['all']     // all provinces and all cities
 ```
 
 ### Examlpe of data
-```
+```php
 Countries::$iran['main'][7] = array(
     "id" => 8,
     "name" => "تهران",
