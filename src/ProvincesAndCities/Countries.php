@@ -3,11 +3,11 @@
 namespace ProvincesAndCities;
 
 class Countries {
-    static public $iran = array();
-    static public $germany = array();
+    public const IRAN = array();
+    public const GERMANY = array();
 }
 
-Countries::$iran["main"] = json_decode('[
+Countries::IRAN["main"] = json_decode('[
     {
         "id": 1,
         "name": "آذربایجان شرقی",
@@ -680,7 +680,7 @@ Countries::$iran["main"] = json_decode('[
     }
 ]
 ');
-Countries::$iran["all"] = json_decode('[
+Countries::IRAN["all"] = json_decode('[
     {
         "id": 1,
         "name": "آذربایجان شرقی",
@@ -2143,7 +2143,7 @@ Countries::$iran["all"] = json_decode('[
     }
 ]
 ');
-Countries::$germany["all"] = json_decode('[
+Countries::GERMANY["all"] = json_decode('[
     {
         "id": 1,
         "name": "Baden-Württemberg",

@@ -18,13 +18,13 @@ composer require mohammad-prb/provinces-and-cities-composer
 
 use ProvincesAndCities\Countries;
 
-Countries::$iran['main']    // all provinces and main cities
-Countries::$iran['all']     // all provinces and all cities
+Countries::IRAN['main']    // all provinces and main cities
+Countries::IRAN['all']     // all provinces and all cities
 ```
 
 ### Examlpe of data
 ```php
-Countries::$iran['main'][7] = array(
+Countries::IRAN['main'][7] = array(
     "id" => 8,
     "name" => "تهران",
     "tel_prefix" => "021",
