@@ -7,7 +7,8 @@
             "ProvincesAndCities\\": "src/ProvincesAndCities/"
         },
         "files": [
-            "src/ProvincesAndCities/Countries.php"
+            "src/ProvincesAndCities/Iran.php",
+            "src/ProvincesAndCities/Germany.php"
         ]
     },
     "authors": [
@@ -17,7 +18,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1.3"
+        "php": ">=8.0"
     },
     "license": "MIT"
 }
