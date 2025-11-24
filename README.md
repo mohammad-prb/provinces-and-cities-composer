@@ -16,19 +16,19 @@ composer require mohammad-prb/provinces-and-cities-composer
 ```php
 <?php
 
-use ProvincesAndCities\Countries;
+use ProvincesAndCities\Iran;
 
-Countries::IRAN['main']    // all provinces and main cities
-Countries::IRAN['all']     // all provinces and all cities
+Iran::MAIN    // all provinces and main cities
+Iran::ALL     // all provinces and all cities
 ```
 
 ### Examlpe of data
 ```php
-Countries::IRAN['main'][7] = array(
+Iran::MAIN[7] = [
     "id" => 8,
     "name" => "تهران",
     "tel_prefix" => "021",
-    "cities" => array(
+    "cities" => [
         "اسلامشهر",
         "بومهن",
         "پاكدشت",
@@ -47,8 +47,8 @@ Countries::IRAN['main'][7] = array(
         "لواسان بزرگ",
         "ملارد",
         "ورامين"
-    )
-)
+    ]
+]
 ```
 
 ## Future Plans
